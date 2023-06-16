@@ -3,7 +3,7 @@
 /**
  * main - Prints all possible combinations of single digits numbers
  *
- * Return: Always 0if the program is well written
+ * Return: Always 0 if the program is well written
  */
 
 int main(void)
@@ -17,7 +17,7 @@ int main(void)
 		if (p != 57)
 		{
 			putchar(',');
-			putchar('');
+			putchar(' ');
 		}
 	}
 	putchar('\n');
