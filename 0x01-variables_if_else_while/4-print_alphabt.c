@@ -3,18 +3,18 @@
 #include<string.h>
 
 /**
- * main - Prints any other alphabet but not e and q
+ * main - Prints alphabets except e and q
  *
- * Return: It shall give 0 if its a success
+ * Return: Gives 0 on success
  */
 
 int main(void)
 {
 	int i;
 
-	for (i = 1; i < 26; i++)
+	for (i = 97; i < 123; i++)
 	{
-		if (i != 5 && i != 12)
+		if (i != 101 && i != 113)
 		{
 			putchar(i);
 		}
