@@ -1,17 +1,16 @@
 #include<stdio.h>
-
 /**
- * main - Prints numbers from 0 to 9 characters
+ * main - Print numbers of base 10.
  *
- * Returns: 0 if all has succeded
+ * Return: Always give 0 if all is well
  */
 int main(void)
 {
-	int i;
+	int i = 0;
 
 	for (i = 0; i < 10; i++)
 	{
-		putchar(i);
+		putchar('0' + i);
 	}
 	putchar('\n');
 	return (0);
