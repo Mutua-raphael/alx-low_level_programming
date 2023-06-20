@@ -1,10 +1,8 @@
 #include "main.h"
-
 /**
- *
- * main - prints _putchar
- *
- * Return: 0 means a (Success)
+ * main - print _putchar
+ * is written by mbah
+ * Return: 0 to mean a (Success)
  */
 
 int main(void)
