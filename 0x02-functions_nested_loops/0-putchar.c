@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
+ *
  * main - prints _putchar
- * 
- * Return: 0 returns success
+ *
+ * Return: 0 means a (Success)
  */
 
 int main(void)
