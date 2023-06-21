@@ -1,9 +1,9 @@
 #include<stdio.h>
 
 /**
- * main - prints te first 50 fibonacci no.s 1 and 2
- * the numbers shall be separated by comma
- * Return: Always 0
+ * main - prints all 50 bonacci numbers
+ * starting with 1 and 2
+ * Return: 0 to mean a succes
  */
 
 int main(void)
@@ -13,7 +13,7 @@ int main(void)
 
 	for (count = 0; count < 50; count++)
 	{
-		sum = fib1 + fib2;
+		sum = fin1 + fib2;
 		printf("%lu", sum);
 
 		fib1 = fib2;
