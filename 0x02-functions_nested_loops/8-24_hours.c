@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * jac_bauer - gives every minute of his day
+ * jack_bauer - gives every minute of his day
  * start form 00:00 to 23:59
  */
 
