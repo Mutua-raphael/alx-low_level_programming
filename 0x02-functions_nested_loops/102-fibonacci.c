@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 /**
- * main - prints te first 50 fibonacci no.s
+ * main - prints te first 50 fibonacci no.s 1 and 2
  * the numbers shall be separated by comma
  * Return: Always 0
  */
@@ -20,7 +20,7 @@ int main(void)
 		fib2 = sum;
 
 		if (count == 49)
-			printf('\n');
+			printf("\n");
 		else
 			printf(",");
 	}
